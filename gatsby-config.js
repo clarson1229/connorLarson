@@ -4,6 +4,7 @@ module.exports = {
     description: `Personal Resume App`,
     author: `@clarson1229`,
   },
+  pathPrefix: "/connorLarson",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
