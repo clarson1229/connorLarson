@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
     const educationData = [
       {
-        "school":"Rockhurst University?",
+        "school":"Rockhurst University, Kanas City, MO.",
         "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
         "graduated":"May 2020",
         "description":"I was Graduated from Rockhurst and UMKC's Dual degree program where I attended classes at both schools. "
@@ -23,13 +23,13 @@ class Resume extends Component {
     });
     const workData =[
       {
-        "company":"Cerner. Kanas City",
+        "company":"Cerner. Kanas City, MO.",
         "title":"Software Intern",
         "years":"June 2019 – August 2019",
         "description": "I Developed web-based applications alongside a full-time development team. I worked on a React-Redux Web Application. I also worked on an internal Hack Day Project using Raspberry Pi's to count open parking spots."
       },
       {
-        "company":"Cerner. Kanas City",
+        "company":"Cerner. Kanas City, MO.",
         "title":"Software Intern",
         "years":"May 2018 – August 2018",
         "description":"Developed web-based applications alongside a full-time development team. I worked on a Ruby on Rails Application. I developed a Tableau Dashboard to monitor Jobs that my teams app processed."
