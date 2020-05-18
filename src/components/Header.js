@@ -55,7 +55,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm Connor Larson.</h1>
-            <h3>I'm a Rockhurst graduate with a Bachelors of Science in Computer Science and Applied Mathematics. Currently based in Boulder Colorado. I build front end applications and am perusing a Masters Degree in Computer Science and Engineering Management.</h3>
+            <h3>I'm a Rockhurst graduate with a Bachelors of Science in Computer Science and Applied Mathematics. Currently based in Boulder Colorado. I build front end applications and am purusing a Masters Degree in Computer Science and Engineering Management.</h3>
             <hr />
             <ul className="social">
                {networks}
