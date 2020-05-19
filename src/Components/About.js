@@ -43,7 +43,7 @@ const About = () => {
 						         Boulder, Colorado.
                    </span><br />
 						   <span></span><br />
-                     <span>connorLarson@connorLarson.com</span>
+                     <span>connorLarson@connor-Larson.com</span>
 					   </p>
                </div>
                <div className="columns download">
