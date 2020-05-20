@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const About = () => {
-   var bio = "Hello, I'm Connor Larson a Software Engineer based in Boulder Colorado. I enjoy anything problem solving related and learning new things. I am most experienced in React JS web development and will be persuing a Masters Degree in Computer Science and Engineering Management where I hope to specialize in Artificial Intelligence. I currently have a Bachelors of Science from Rockhurst University in Computer Science and Applied Mathematics.";
+   var bio = "Hello, I'm a Software Engineer based in Boulder Colorado. I enjoy anything problem solving related and learning new things. I am most experienced in React JS web development and will be persuing a Masters Degree in Computer Science and Engineering Management where I hope to specialize in Artificial Intelligence. I currently have a Bachelors of Science from Rockhurst University in Computer Science and Applied Mathematics.";
    const data = useStaticQuery(graphql`
       {
          file(
@@ -42,7 +42,6 @@ const About = () => {
 						   <span><br />
 						         Boulder, Colorado.
                    </span><br />
-						   <span></span><br />
                      <span>connorLarson@connor-Larson.com</span>
 					   </p>
                </div>

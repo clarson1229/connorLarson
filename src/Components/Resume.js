@@ -90,7 +90,7 @@ class Resume extends Component {
 
 
     return (
-      <section id="resume">
+      <section id="resume" className=".opaque">
 
       <div className="row education">
          <div className="three columns header-col">
