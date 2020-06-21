@@ -4,7 +4,34 @@ import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
 import "@fortawesome/fontawesome-free/css/fontawesome.css";
 
 class Header extends Component {
-   
+   constructor(props) {
+      super(props);
+  
+      this.listener = null;
+      this.state = {
+        status: "clear",
+        bgColor: " ",
+      };
+    }
+   componentDidMount() {
+      this.listener = document.addEventListener("scroll", e => {
+        var scrolled = document.scrollingElement.scrollTop;
+        if (scrolled >= 800) {
+            if (this.state.status !== "colored") {
+               this.setState({ status: "colored" });
+               this.setState({ bgColor: "#2B2B2B" });
+            }
+        } else {
+            if (this.state.status !== "clear") {
+               this.setState({ status: "clear" });
+               this.setState({ bgColor: " " });
+            }
+        }
+      });
+   }
+   componentDidUpdate() {
+      document.removeEventListener("scroll", this.listener);
+   }
    render() {
       const social=[
          {
@@ -40,13 +67,15 @@ class Header extends Component {
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" className="nav">
+         <ul id="nav" className="nav" style={{
+            backgroundColor: this.state.bgColor,
+            }}>
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
+            {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
 
       </nav>

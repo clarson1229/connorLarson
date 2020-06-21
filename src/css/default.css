@@ -216,7 +216,7 @@ blockquote cite {
 }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
-blockquote cite a:visited { color: #8B9798; border: none }
+/* blockquote cite a:visited { color: #8B9798; border: none } */
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
@@ -285,7 +285,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 
 /*  3. Links  ------------------------------------------------------- */
 
-a, a:visited {
+/* a, a:visited {
    text-decoration: none;
    outline: 0;
    color: #11ABB0;
@@ -296,7 +296,7 @@ a, a:visited {
    transition: color .3s ease-in-out;
 }
 a:hover, a:focus { color: #313131; }
-p a, p a:visited { line-height: inherit; }
+p a, p a:visited { line-height: inherit; } */
 
 
 /*  4. List  --------------------------------------------------------- */
@@ -348,9 +348,9 @@ li p { }
    border: none;
    color: #313131;
 }
-.stats-tabs li a:hover {
+/* .stats-tabs li a:hover {
    color:#11ABB0;
-}
+} */
 .stats-tabs li a b {
 	display: block;
 	margin: 6px 0 0 0;
@@ -434,16 +434,16 @@ dd { margin: 0 0 0 20px; }
    background: #838A91;
    color: #fff;
 }
-.pagination .current,
+/* .pagination .current,
 .pagination .current:hover {
    background-color: #11ABB0;
    color: #fff;
-}
-.pagination .inactive,
+} */
+/* .pagination .inactive,
 .pagination .inactive:hover {
    background-color: #E6E8EB;
 	color: #A9ADB2;
-}
+} */
 .pagination .prev, .pagination .next {}
 
 /*  5. Images  --------------------------------------------------------- */

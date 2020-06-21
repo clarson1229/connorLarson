@@ -13,7 +13,7 @@ class Resume extends Component {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
         "graduated":"In Progress",
-        "description":"Pursuing a Masters in Computer Science with hopes to specialize in Artificial Intelligence ."
+        "description":"Pursuing a Masters in Computer Science with emphasis in Artificial Intelligence."
       }
     ];
     var education = educationData.map(function(education){
@@ -86,7 +86,7 @@ class Resume extends Component {
       var className = 'bar-expand '+skills.name.toLowerCase();
       return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
     });
-    const skillmessage = "Need to add Skill Message."
+    const skillmessage = "Below are my Language Profriencies."
 
 
     return (
