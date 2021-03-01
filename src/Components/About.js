@@ -36,7 +36,7 @@ const About = () => {
             <p>{bio}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  {/* <h2>Contact Details</h2>
                   <p className="address">
 						   <span>Connor Larson </span><br />
 						   <span><br />
@@ -44,7 +44,7 @@ const About = () => {
                    </span><br />
 						   <span></span>
                      <span></span>
-					   </p>
+					   </p> */}
                </div>
                <div className="columns download">
                   <p>
