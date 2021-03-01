@@ -6,21 +6,21 @@ import "@fortawesome/fontawesome-free/css/fontawesome.css";
 class Footer extends Component {
   render() {
     const social=[
-      {
-        "name":"facebook",
-        "url":"https://www.facebook.com/connor.larson1",
-        "className":"fab fa-facebook"
-      },
+      // {
+      //   "name":"facebook",
+      //   "url":"https://www.facebook.com/connor.larson1",
+      //   "className":"fab fa-facebook"
+      // },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/connor-larson-284bbb13b/",
+        "url":"https://www.linkedin.com/in/clarson1229/",
         "className":"fab fa-linkedin"
       },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/clarson1229",
-        "className":"fab fa-instagram"
-      },
+      // {
+      //   "name":"instagram",
+      //   "url":"http://instagram.com/clarson1229",
+      //   "className":"fab fa-instagram"
+      // },
       {
         "name":"github",
         "url":"http://github.com/clarson1229",
@@ -42,7 +42,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2020 Connor Larson </li>
+              <li>&copy; Copyright 2021 Connor Larson </li>
               
            </ul>
 

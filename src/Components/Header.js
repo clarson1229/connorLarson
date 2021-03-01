@@ -34,21 +34,21 @@ class Header extends Component {
    }
    render() {
       const social=[
-         {
-           "name":"facebook",
-           "url":"https://www.facebook.com/connor.larson1",
-           "className":"fab fa-facebook"
-         },
+         // {
+         //   "name":"facebook",
+         //   "url":"https://www.facebook.com/connor.larson1",
+         //   "className":"fab fa-facebook"
+         // },
          {
            "name":"linkedin",
-           "url":"https://www.linkedin.com/in/connor-larson-284bbb13b/",
+           "url":"https://www.linkedin.com/in/clarson1229/",
            "className":"fab fa-linkedin"
          },
-         {
-           "name":"instagram",
-           "url":"http://instagram.com/clarson1229",
-           "className":"fab fa-instagram"
-         },
+         // {
+         //   "name":"instagram",
+         //   "url":"http://instagram.com/clarson1229",
+         //   "className":"fab fa-instagram"
+         // },
          {
            "name":"github",
            "url":"http://github.com/clarson1229",
@@ -83,7 +83,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm Connor Larson.</h1>
-            <h3 className="backopacity">I'm a Rockhurst graduate with a Bachelors of Science in Computer Science and Applied Mathematics. Currently based in Boulder Colorado. I build front end applications and am purusing a Masters Degree in Computer Science and Engineering Management.</h3>
+            <h3 className="backopacity">I'm a Master's Student focued on Machine Learning based out of Boulder Colorado. The majority of my expierence is in building and managing front end applications, but my goal is to work in the Artificial Intelligence field.</h3>
             <hr />
             <ul className="social">
                {networks}

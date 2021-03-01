@@ -4,17 +4,18 @@ class Resume extends Component {
   render() {
     const educationData = [
       {
-        "school":"Rockhurst University, Kanas City, MO.",
-        "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
-        "graduated":"May 2020",
-        "description":"I was Graduated from Rockhurst and UMKC's Dual degree program where I attended classes at both schools. "
-      },
-      {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
         "graduated":"In Progress",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Artificial Intelligence."
+        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems."
+      },
+      {
+        "school":"Rockhurst University, Kanas City, MO.",
+        "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
+        "graduated":"May 2020",
+        "description":"I Graduated from Rockhurst and UMKC's Dual degree program where I attended classes at both schools. "
       }
+      
     ];
     var education = educationData.map(function(education){
       return <div key={education.school}><h3>{education.school}</h3>
@@ -49,12 +50,12 @@ class Resume extends Component {
     });
     const skillsData=[
       {
-        "name":"Git",
-        "level":"95%"
+        "name":"ReactJs",
+        "level":"90%"
       },
       {
-        "name":"ReactJs",
-        "level":"85%"
+        "name":"Python",
+        "level":"90%"
       },
       {
         "name":"CSS",
@@ -78,7 +79,7 @@ class Resume extends Component {
       },
       {
         "name":"Ruby",
-        "level":"50%"
+        "level":"30%"
       }
 
     ];
