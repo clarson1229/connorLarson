@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../css/layout.css";
-import profile from "../images/profile.jpg";
+import profile from "../images/profile.png";
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -10,7 +10,7 @@ const About = () => {
       {
          file(
          sourceInstanceName: { eq: "images" }
-         relativePath: { eq: "profile.jpg" }
+         relativePath: { eq: "profile.png" }
          ) {
          childImageSharp {
             fluid(maxWidth: 200, maxHeight: 200) {
