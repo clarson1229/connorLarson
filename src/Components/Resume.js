@@ -13,7 +13,7 @@ class Resume extends Component {
         "school":"Rockhurst University, Kanas City, MO.",
         "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
         "graduated":"May 2020",
-        "description":"I Graduated from Rockhurst and UMKC's Dual degree program where I attended classes at both schools. "
+        "description":"Graduated from Rockhurst and UMKC's Dual degree program where I attended classes at both schools. "
       }
       
     ];
@@ -27,7 +27,7 @@ class Resume extends Component {
         "company":"Cerner. Kanas City, MO.",
         "title":"Software Intern",
         "years":"June 2019 – August 2019",
-        "description": "I Developed web-based applications alongside a full-time development team. I worked on a React-Redux Web Application. I also worked on an internal Hack Day Project using Raspberry Pi's to count open parking spots."
+        "description": "Developed web-based applications alongside a full-time development team. I worked on a React-Redux Web Application. I also worked on an internal Hack Day Project using Raspberry Pi's to count open parking spots."
       },
       {
         "company":"Cerner. Kanas City, MO.",
@@ -39,7 +39,7 @@ class Resume extends Component {
         "company":"Rockhurst University IT Help Center",
         "title":"Work Study",
         "years":"August 2016 – May 2018",
-        "description":"I assisted individuals in the help center answering phones and fixing IT related issues. I Resolved computer related issues regarding email, internet connectivity and basic Microsoft programs. I assisted with setup and breakdown of AV technical equipment on campus."
+        "description":"Assisted individuals in the help center answering phones and fixing IT related issues. I resolved computer related issues regarding email, internet connectivity and basic Microsoft programs. I assisted with setup and breakdown of AV technical equipment on campus."
       }
     ];
     var work = workData.map(function(work){
