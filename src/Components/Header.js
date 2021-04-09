@@ -11,9 +11,15 @@ class Header extends Component {
       this.state = {
         status: "clear",
         bgColor: " ",
+        homeColor: "#F06000",
+        aboutColor: "#fff",
+        resumeColor: "#fff",
+        url:''
+
       };
     }
    componentDidMount() {
+      this.setState({ url: window.location.href });
       this.listener = document.addEventListener("scroll", e => {
         var scrolled = document.scrollingElement.scrollTop;
         if (scrolled >= 800) {
@@ -31,14 +37,45 @@ class Header extends Component {
    }
    componentDidUpdate() {
       document.removeEventListener("scroll", this.listener);
+      if (window.location.href != this.state.url){
+         this.changeColor();
+      }
+   }
+   changeColor(){
+      var url = window.location.href.split('#')
+      switch (url[1]) {
+         case 'home':
+            this.setState({ 
+               homeColor: "#F06000",
+               aboutColor: "#fff",
+               resumeColor: "#fff",
+               url: window.location.href
+            });
+            break;
+         case 'about':
+            this.setState({ 
+               homeColor: "#fff",
+               aboutColor: "#F06000",
+               resumeColor: "#fff",
+               url: window.location.href
+            });
+            break;
+         case 'resume':
+            this.setState({ 
+               homeColor: "#fff",
+               aboutColor: "#fff",
+               resumeColor: "#F06000",
+               url: window.location.href
+            });
+            break;
+
+         
+      }
+
+      console.log(url)
    }
    render() {
       const social=[
-         // {
-         //   "name":"facebook",
-         //   "url":"https://www.facebook.com/connor.larson1",
-         //   "className":"fab fa-facebook"
-         // },
          {
            "name":"linkedin",
            "url":"https://www.linkedin.com/in/clarson1229/",
@@ -46,7 +83,7 @@ class Header extends Component {
          },
          // {
          //   "name":"instagram",
-         //   "url":"http://instagram.com/clarson1229",
+         //   "url":"None Ya business",
          //   "className":"fab fa-instagram"
          // },
          {
@@ -68,12 +105,12 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav" style={{
-            backgroundColor: this.state.bgColor,
-            }}>
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+                                             backgroundColor: this.state.bgColor,
+                                             }}>
+            <li><a className="smoothscroll" style={{color: this.state.homeColor}} href="#home">Home</a></li>
+            <li><a className="smoothscroll" style={{color: this.state.aboutColor}}href="#about">About</a></li>
+	         <li><a className="smoothscroll" style={{color: this.state.resumeColor}}href="#resume">Resume</a></li>
+            {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
             {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>

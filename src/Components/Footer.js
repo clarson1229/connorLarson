@@ -6,11 +6,6 @@ import "@fortawesome/fontawesome-free/css/fontawesome.css";
 class Footer extends Component {
   render() {
     const social=[
-      // {
-      //   "name":"facebook",
-      //   "url":"https://www.facebook.com/connor.larson1",
-      //   "className":"fab fa-facebook"
-      // },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/clarson1229/",
@@ -18,7 +13,7 @@ class Footer extends Component {
       },
       // {
       //   "name":"instagram",
-      //   "url":"http://instagram.com/clarson1229",
+      //   "url":"None Ya business",
       //   "className":"fab fa-instagram"
       // },
       {
