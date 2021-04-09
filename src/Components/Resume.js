@@ -24,7 +24,7 @@ class Resume extends Component {
     });
     const workData =[
       {
-        "company":"C & A Holding Companies Inc, Littleton, CO",
+        "company":"C & A Holding Companies Inc. Littleton, CO",
         "title":"Software Developer",
         "years":"June 2020 – Present",
         "description":"Developed web-based monitoring Dashboards and applications for in house use. Helped build and manage an E-commerce site. Diagnosed and solved IT related issues in the office."
@@ -36,7 +36,7 @@ class Resume extends Component {
         "description": "Developed web-based applications alongside a full-time development team. Worked on a React-Redux Web Application. Worked on an internal Hack Day Project using Raspberry Pi's set up in an ad-hoc network using OpenCV to count open parking spots."
       },
       {
-        "company":"Cerner. Kanas City, MO.",
+        "company":"Cerner. Kanas City, MO. ",
         "title":"Software Intern",
         "years":"May 2018 – August 2018",
         "description":"Developed web-based applications alongside a full-time development team. Worked on a Ruby on Rails Application. Developed a Tableau Dashboard to monitor Jobs that my teams app processed."
@@ -50,42 +50,119 @@ class Resume extends Component {
     });
     const skillsData=[
       {
-        "name":"ReactJs",
-        "level":"90%"
+        "name":"React.Js",
+        "description":"90%",
+        "weight": "9"
       },
       {
-        "name":"Python",
-        "level":"90%"
+        "name":"Redux",
+        "description":"90%",
+        "weight": "4"
+        
       },
       {
-        "name":"CSS",
-        "level":"85%"
-      },
-      {
-        "name":"HTML5",
-        "level":"90%"
+        "name":"HTML5/CSS",
+        "description":"85%",
+        "weight": "7"
       },
       {
         "name":"SQL",
-        "level":"78%"
+        "description":"78%",
+        "weight": "4"
       },
       {
         "name":"C++",
-        "level":"72%"
+        "description":"72%",
+        "weight": "5"
+      },
+      {
+        "name":"Python",
+        "description":"90%",
+        "weight": "9"
       },
       {
         "name":"Java",
-        "level":"40%"
+        "description":"40%",
+        "weight": "4"
+      },
+      {
+        "name":"R and Rstudio",
+        "description":"30%",
+        "weight": "6"
       },
       {
         "name":"Ruby",
-        "level":"30%"
-      }
+        "description":"30%",
+        "weight": "2"
+      },
+      {
+        "name":"Visual Studio",
+        "description":"30%",
+        "weight": "7"
+      },
+      {
+        "name":"Tableau",
+        "description":"30%",
+        "weight": "4"
+      },
+      {
+        "name":"MicroSoft Office",
+        "description":"30%",
+        "weight": "8"
+      }, 
+      {
+        "name":"Git and Github",
+        "description":"30%",
+        "weight": "9"
+      },
+      {
+        "name":"macOS",
+        "description":"30%",
+        "weight": "7"
+      },
+      {
+        "name":"Linux",
+        "description":"30%",
+        "weight": "2"
+      },
+      {
+        "name":"Windows",
+        "description":"30%",
+        "weight": "9"
+      },
+      {
+        "name":"Machine Learning",
+        "description":"30%",
+        "weight": "5"
+      },
+      {
+        "name":"MySQL",
+        "description":"30%",
+        "weight": "5"
+      },
+      {
+        "name":"Apache Hadoop",
+        "description":"30%",
+        "weight": "3"
+      },
+      {
+        "name":"Natural Language Processing",
+        "description":"30%",
+        "weight": "3"
+      },
+      {
+        "name":"CLI",
+        "description":"30%",
+        "weight": "7"
+      },
+      
+      
 
     ];
     var skills = skillsData.map(function(skills){
-      var className = 'bar-expand '+skills.name.toLowerCase();
-      return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      var className = 'invdSkill '+skills.name.toLowerCase();
+      return <li key={skills.name} className={className} ><span data-weight={skills.weight} >{skills.name} </span> </li>
+      // return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
     });
     const skillmessage = "Some of my Skils just to name a few."
 
@@ -122,22 +199,17 @@ class Resume extends Component {
 
 
       <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+        <div className="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
+        <div className="nine columns main-col">
+          <p><h3>{skillmessage}</h3></p>
+          <div className="skillsSection">
+            <ul className="bubble">
+              {skills}
+            </ul>
+          </div>
+        </div>
       </div>
    </section>
     );
