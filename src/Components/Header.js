@@ -6,7 +6,6 @@ import "@fortawesome/fontawesome-free/css/fontawesome.css";
 class Header extends Component {
    constructor(props) {
       super(props);
-  
       this.listener = null;
       this.state = {
         status: "clear",
@@ -15,7 +14,6 @@ class Header extends Component {
         aboutColor: "#fff",
         resumeColor: "#fff",
         url:''
-
       };
     }
    componentDidMount() {
@@ -68,11 +66,7 @@ class Header extends Component {
                url: window.location.href
             });
             break;
-
-         
       }
-
-      console.log(url)
    }
    render() {
       const social=[
@@ -98,41 +92,34 @@ class Header extends Component {
 
     return (
       <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" className="nav" style={{
-                                             backgroundColor: this.state.bgColor,
-                                             }}>
-            <li><a className="smoothscroll" style={{color: this.state.homeColor}} href="#home">Home</a></li>
-            <li><a className="smoothscroll" style={{color: this.state.aboutColor}}href="#about">About</a></li>
-	         <li><a className="smoothscroll" style={{color: this.state.resumeColor}}href="#resume">Resume</a></li>
-            {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
-            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-            {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
-         </ul>
-
-      </nav>
-
-      <div className="row banner">
-         <div className="banner-text">
-            <h1 className="responsive-headline">I'm Connor Larson.</h1>
-            <h3 className="backopacity">I'm a Master's Student focused on Machine Learning based out of Boulder Colorado. The majority of my expierence is in building and managing front end applications, but my goal is to work in the Artificial Intelligence field.</h3>
-            <hr />
-            <ul className="social">
-               {networks}
+         <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+            <ul id="nav" className="nav" style={{ backgroundColor: this.state.bgColor }}>
+               <li><a className="smoothscroll" style={{color: this.state.homeColor}} href="#home">Home</a></li>
+               <li><a className="smoothscroll" style={{color: this.state.aboutColor}}href="#about">About</a></li>
+               <li><a className="smoothscroll" style={{color: this.state.resumeColor}}href="#resume">Resume</a></li>
+               {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
+               {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
+               {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
             </ul>
+         </nav>
+
+         <div className="row banner">
+            <div className="banner-text">
+               <h1 className="responsive-headline">I'm Connor Larson.</h1>
+               <h3 className="backopacity">I'm a Master's Student focused on Machine Learning based out of Boulder Colorado. The majority of my expierence is in building and managing front end applications, but my goal is to work in the Artificial Intelligence field.</h3>
+               <hr />
+               <ul className="social">
+                  {networks}
+               </ul>
+            </div>
          </div>
-      </div>
 
-      <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-      </p>
-
-   </header>
+         <p className="scrolldown">
+            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         </p>
+      </header>
     );
   }
 }
