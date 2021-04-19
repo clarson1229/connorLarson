@@ -880,3 +880,49 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+/* ------------------------------------------------------------------ */
+/* G. BlogPost
+/* ------------------------------------------------------------------ */
+
+
+#Blog {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#Blog h1 {
+   font: 24px/32px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#Blog h1 span {
+   /* border-bottom: 3px solid #11ABB0; */
+   padding-bottom: 6px;
+}
+#Blog h3 {
+   font: 20px/28px 'opensans-bold', sans-serif;
+}
+
+#Blog .header-col { 
+   padding-top: 9px;
+   border-bottom: 3px solid #11ABB0;
+ }
+#Blog .main-col { padding-right: 10%; }
+
+#Blog .subSection{
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#Blog .sources{
+   text-indent:-1.5em;
+}
+#Blog .sourcesDiv{
+   padding-left: 25px ;
+}
+
+
