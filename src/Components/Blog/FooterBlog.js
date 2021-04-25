@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../css/layout.css";
+import "../../css/layout.css";
 import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
 import "@fortawesome/fontawesome-free/css/fontawesome.css";
 
@@ -37,7 +37,7 @@ class Footer extends Component {
                   <li>&copy; Copyright 2021 Connor Larson </li>
               </ul>
             </div>
-            <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="fas fa-arrow-up"></i></a></div>
+            <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#BlogHeader"><i className="fas fa-arrow-up"></i></a></div>
         </div>
       </footer>
     );
