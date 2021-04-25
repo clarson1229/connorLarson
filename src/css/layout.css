@@ -899,6 +899,16 @@ footer .social-links li:first-child { margin-left: 0; }
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+
+#Blog .Title {
+   font: 32px/40px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   padding-bottom: 6px;
+}
+
+
 #Blog h1 span {
    /* border-bottom: 3px solid #11ABB0; */
    padding-bottom: 6px;
@@ -916,6 +926,7 @@ footer .social-links li:first-child { margin-left: 0; }
 #Blog .subSection{
    margin-bottom: 48px;
    padding-bottom: 24px;
+   color: #161415;
    border-bottom: 1px solid #E8E8E8;
 }
 #Blog .sources{
