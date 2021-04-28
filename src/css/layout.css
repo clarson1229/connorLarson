@@ -929,6 +929,21 @@ footer .social-links li:first-child { margin-left: 0; }
    color: #161415;
    border-bottom: 1px solid #E8E8E8;
 }
+
+#Blog .readingTable{
+   font: 14px/20px ;
+   
+}
+#Blog .rRow{
+   border-bottom: 1px solid #E8E8E8;
+}
+#Blog .atitle{
+   text-align: left;
+}
+#Blog .link{
+   padding-left: 10px;
+}
+
 #Blog .sources{
    text-indent:-1.5em;
 }
