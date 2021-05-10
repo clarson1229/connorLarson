@@ -7,13 +7,13 @@ class Resume extends Component {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
         "graduated":"In Progress",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems."
+        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.82 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Cyber Security, and Project Management."
       },
       {
         "school":"Rockhurst University, Kanas City, MO.",
         "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
         "graduated":"May 2020",
-        "description":"Graduated from Rockhurst and UMKC's Dual degree program which allowed me to attend classes at both schools. "
+        "description":"Graduated Magna Cum Laude with a 3.74 GPA from Rockhurst and UMKC's Dual degree program which allowed me to attend classes at both schools. "
       }
     ];
     var education = educationData.map(function(education){
@@ -26,19 +26,19 @@ class Resume extends Component {
         "company":"C & A Holding Companies Inc. Littleton, CO",
         "title":"Software Developer",
         "years":"June 2020 – Present",
-        "description":"Developed web-based monitoring Dashboards and applications for in house use. Helped build and manage an E-commerce site. Diagnosed and solved IT related issues in the office."
+        "description":"Delivered a custom monitoring dashboard digesting data via API calls to multiple databases. Designed and developed a custom visualization tool via an embedded Tableau map in a React Web Application. Communicated with marketing director and payment processor to build an E-commerce site in Square Space with injected custom JavaScript code."
       },
       {
         "company":"Cerner. Kanas City, MO.",
         "title":"Software Intern",
-        "years":"June 2019 – August 2019",
-        "description": "Developed web-based applications alongside a full-time development team. Worked on a React-Redux Web Application. Worked on an internal Hack Day Project using Raspberry Pi's set up in an ad-hoc network using OpenCV to count open parking spots."
+        "years":"May 2018 – August 2019",
+        "description": "Developed feature improvements and corrected defects to React Java Script Applications in a team-based environment. Wrote documentation for custom UI components in Storybook. Utilized GitHub for version control and Jira for project estimation and scheduling. Engaged in code reviews to help ensure robust and well tested code was delivered."
       },
       {
-        "company":"Cerner. Kanas City, MO. ",
-        "title":"Software Intern",
-        "years":"May 2018 – August 2018",
-        "description":"Developed web-based applications alongside a full-time development team. Worked on a Ruby on Rails Application. Developed a Tableau Dashboard to monitor Jobs that my teams app processed."
+        "company":"Mic King Music and Events. Kanas City, MO. ",
+        "title":"Disc Jockey/ Master of Ceremonies",
+        "years":"Novmember 2016 – September 2019",
+        "description":"Produced an excellent client experience by catering to needs of both clients and guests and strict adherence to set schedule. Managed three to four clients a month through organization and interpersonal skills."
       }
     ];
     var work = workData.map(function(work){
