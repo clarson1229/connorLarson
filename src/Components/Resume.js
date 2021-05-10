@@ -10,7 +10,7 @@ class Resume extends Component {
         "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.82 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Cyber Security, and Project Management."
       },
       {
-        "school":"Rockhurst University, Kanas City, MO.",
+        "school":"Rockhurst University, Kansas City, MO.",
         "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
         "graduated":"May 2020",
         "description":"Graduated Magna Cum Laude with a 3.74 GPA from Rockhurst and UMKC's Dual degree program which allowed me to attend classes at both schools. "
@@ -29,13 +29,13 @@ class Resume extends Component {
         "description":"Delivered a custom monitoring dashboard digesting data via API calls to multiple databases. Designed and developed a custom visualization tool via an embedded Tableau map in a React Web Application. Communicated with marketing director and payment processor to build an E-commerce site in Square Space with injected custom JavaScript code."
       },
       {
-        "company":"Cerner. Kanas City, MO.",
+        "company":"Cerner. Kansas City, MO.",
         "title":"Software Intern",
         "years":"May 2018 – August 2019",
         "description": "Developed feature improvements and corrected defects to React Java Script Applications in a team-based environment. Wrote documentation for custom UI components in Storybook. Utilized GitHub for version control and Jira for project estimation and scheduling. Engaged in code reviews to help ensure robust and well tested code was delivered."
       },
       {
-        "company":"Mic King Music and Events. Kanas City, MO. ",
+        "company":"Mic King Music and Events. Kansas City, MO. ",
         "title":"Disc Jockey/ Master of Ceremonies",
         "years":"Novmember 2016 – September 2019",
         "description":"Produced an excellent client experience by catering to needs of both clients and guests and strict adherence to set schedule. Managed three to four clients a month through organization and interpersonal skills."
