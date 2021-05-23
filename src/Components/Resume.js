@@ -7,7 +7,7 @@ class Resume extends Component {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
         "graduated":"In Progress",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.82 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Cyber Security, and Project Management."
+        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.91 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Cyber Security, and Project Management."
       },
       {
         "school":"Rockhurst University, Kansas City, MO.",
