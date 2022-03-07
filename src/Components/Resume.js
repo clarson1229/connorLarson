@@ -26,19 +26,19 @@ class Resume extends Component {
         "company":"BLUE CROSS BLUE SHIELD OF ALABAMA, Birmingham, AL",
         "title":"Java Developer",
         "years":"July 2021 – present",
-        "description":"• Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment. Implemented new user experience stories on React JavaScript applications using Type Script to ensure variable type and structure. Utilized node.js as our package manager for our React applications and to build the production static files which are embedded into our application. Utilized Liferay to embed applications and manage web content. Collaborated with product owners to ensure new UI elements matched their vision. Utilized SQL to find test users to ensure all specials cases were handled. Worked in a remote team-based environment."
+        "description":"• Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment.\n • Implemented new user experience stories on React JavaScript applications using Type Script to ensure variable type and structure.\n •  Utilized node.js as our package manager for our React applications and to build the production static files which are embedded into our application.\n •  Utilized Liferay to embed applications and manage web content. \n • Collaborated with product owners to ensure new UI elements matched their vision.\n •  Utilized SQL to find test users to ensure all specials cases were handled.\n •  Worked in a remote team-based environment."
       },
       {
         "company":"C & A Holding Companies Inc. Littleton, CO",
         "title":"Software Developer",
         "years":"June 2020 – Present",
-        "description":"Delivered a custom monitoring dashboard digesting data via API calls to multiple databases. Designed and developed a custom visualization tool via an embedded Tableau map in a React Web Application. Communicated with marketing director and payment processor to build an E-commerce site in Square Space with injected custom JavaScript code."
+        "description":"• Delivered a custom monitoring dashboard digesting data via API calls to multiple databases.\n •  Designed and developed a custom visualization tool via an embedded Tableau map in a React Web Application.\n •  Communicated with marketing director and payment processor to build an E-commerce site in Square Space with injected custom JavaScript code."
       },
       {
         "company":"Cerner. Kansas City, MO.",
         "title":"Software Intern",
         "years":"May 2018 – August 2019",
-        "description": "Developed feature improvements and corrected defects to React Java Script Applications in a team-based environment. Wrote documentation for custom UI components in Storybook. Utilized GitHub for version control and Jira for project estimation and scheduling. Engaged in code reviews to help ensure robust and well tested code was delivered."
+        "description": "• Developed feature improvements and corrected defects to React Java Script Applications in a team-based environment.\n •  Wrote documentation for custom UI components in Storybook.\n • Utilized GitHub for version control and Jira for project estimation and scheduling.\n •  Engaged in code reviews to help ensure robust and well tested code was delivered."
       }
       
     ];
