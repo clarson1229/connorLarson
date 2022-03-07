@@ -23,6 +23,12 @@ class Resume extends Component {
     });
     const workData =[
       {
+        "company":"BLUE CROSS BLUE SHIELD OF ALABAMA, Birmingham, AL",
+        "title":"Java Developer",
+        "years":"July 2021 – present",
+        "description":"• Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment. Implemented new user experience stories on React JavaScript applications using Type Script to ensure variable type and structure. Utilized node.js as our package manager for our React applications and to build the production static files which are embedded into our application. Utilized Liferay to embed applications and manage web content. Collaborated with product owners to ensure new UI elements matched their vision. Utilized SQL to find test users to ensure all specials cases were handled. Worked in a remote team-based environment."
+      },
+      {
         "company":"C & A Holding Companies Inc. Littleton, CO",
         "title":"Software Developer",
         "years":"June 2020 – Present",
@@ -33,13 +39,8 @@ class Resume extends Component {
         "title":"Software Intern",
         "years":"May 2018 – August 2019",
         "description": "Developed feature improvements and corrected defects to React Java Script Applications in a team-based environment. Wrote documentation for custom UI components in Storybook. Utilized GitHub for version control and Jira for project estimation and scheduling. Engaged in code reviews to help ensure robust and well tested code was delivered."
-      },
-      {
-        "company":"Mic King Music and Events. Kansas City, MO. ",
-        "title":"Disc Jockey/ Master of Ceremonies",
-        "years":"Novmember 2016 – September 2019",
-        "description":"Produced an excellent client experience by catering to needs of both clients and guests and strict adherence to set schedule. Managed three to four clients a month through organization and interpersonal skills."
       }
+      
     ];
     var work = workData.map(function(work){
       return <div key={work.company}><h3>{work.company}</h3>
@@ -71,7 +72,7 @@ class Resume extends Component {
       },
       {
         "name":"C++",
-        "description":"72%",
+        "description":"62%",
         "weight": "5"
       },
       {
