@@ -6,8 +6,8 @@ class Resume extends Component {
       {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
-        "graduated":"In Progress",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.91 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Cyber Security, and Project Management."
+        "graduated":"Expected Graduation May 2023",
+        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.94 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks and Deep Learning, Cyber Security, Data Science for Quality Improvement, and Project Management."
       },
       {
         "school":"Rockhurst University, Kansas City, MO.",
@@ -23,15 +23,21 @@ class Resume extends Component {
     });
     const workData =[
       {
+        "company":"COMCAST CORPERATION, Denver, CO",
+        "title":"Dev Ops Engineer III",
+        "years":"April 2022 – Present",
+        "description":"Took over lead development of an internal Operations Portal Tool. Completed a total rewrite of the React JavaScript web application to upgrade the language version and clean the code up. Utilized Docker and CI/CD pipelines to provide continuous deployments. Mentored a teammate on overall computer science techniques and React JavaScript. Worked in a hybrid-remote team-based environment."
+      },
+      {
         "company":"BLUE CROSS BLUE SHIELD OF ALABAMA, Birmingham, AL",
         "title":"Java Developer",
-        "years":"July 2021 – present",
+        "years":"July 2021 – April 2022",
         "description":"Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment. Implemented new user experience stories on React JavaScript applications using Type Script to ensure variable type and structure.  Utilized node.js as our package manager for our React applications and to build the production static files which are embedded into our application.  Utilized Liferay to embed applications and manage web content.  Collaborated with product owners to ensure new UI elements matched their vision.  Utilized SQL to find test users to ensure all specials cases were handled.  Worked in a remote team-based environment."
       },
       {
         "company":"C & A Holding Companies Inc. Littleton, CO",
         "title":"Software Developer",
-        "years":"June 2020 – Present",
+        "years":"June 2020 – July 2021",
         "description":"Delivered a custom monitoring dashboard digesting data via API calls to multiple databases. Designed and developed a custom visualization tool via an embedded Tableau map in a React Web Application.  Communicated with marketing director and payment processor to build an E-commerce site in Square Space with injected custom JavaScript code."
       },
       {
@@ -93,7 +99,7 @@ class Resume extends Component {
       {
         "name":"Ruby",
         "description":"30%",
-        "weight": "2"
+        "weight": "1"
       },
       {
         "name":"Visual Studio",
@@ -154,10 +160,19 @@ class Resume extends Component {
         "name":"CLI",
         "description":"30%",
         "weight": "7"
-      },
-      
-      
-
+      },{
+        "name":"Docker",
+        "description":"37%",
+        "weight": "3"
+      },{
+        "name":"CI/CD Pipelines",
+        "description":"20%",
+        "weight": "2"
+      },{
+        "name":"Nueral Networks",
+        "description":"20%",
+        "weight": "5"
+      }
     ];
     var skills = skillsData.map(function(skills){
       var className = 'invdSkill '+skills.name.toLowerCase();
