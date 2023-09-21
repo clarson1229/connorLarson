@@ -6,8 +6,8 @@ class Resume extends Component {
       {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
-        "graduated":"Expected Graduation May 2023",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. Current GPA: 3.94 / 4.0. Relevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks and Deep Learning, Cyber Security, Data Science for Quality Improvement, and Project Management."
+        "graduated":"Excpected Decemember 2023",
+        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. \nCurrent GPA: 3.97 / 4.0. \nRelevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
       },
       {
         "school":"Rockhurst University, Kansas City, MO.",
@@ -26,13 +26,19 @@ class Resume extends Component {
         "company":"COMCAST CORPERATION, Denver, CO",
         "title":"Dev Ops Engineer III",
         "years":"April 2022 – Present",
-        "description":"Took over lead development of an internal Operations Portal Tool. Completed a total rewrite of the React JavaScript web application to upgrade the language version and clean the code up. Utilized Docker and CI/CD pipelines to provide continuous deployments. Mentored a teammate on overall computer science techniques and React JavaScript. Worked in a hybrid-remote team-based environment."
+        "description":"Led and maintained ownership of an internal React JavaScript tool for the DevOps team, undertaking a comprehensive rewrite to upgrade the language version. \nDeveloped a Python-based backend for data collection from production sites, feeding interactive data visualizations on the React frontend and generating daily reports. \nDesigned a sophisticated backend system that parses formulas from Excel spreadsheets into executable Python code, ensuring sequential execution and dynamically reconstructing the original Excel document.	\nTransitioned application deployments from bare metal servers to a Kubernetes-based setup, utilizing Docker, Helm charts, and Terraform."
+      },
+      {
+        "company":"LOCKHEED MARTIN, Littleton, CO",
+        "title":"Master’s Capstone Project",
+        "years":"August 2022 – May 2023",
+        "description":"Transformed raw textual data into clean, structured formats optimal for Natural Language Processing algorithms and storage. \nLeveraged pretrained models from HuggingFace and fine-tuned them using the deep learning framework PyTorch. \nLeveraged GPUs for accelerated training while analyzing multiple transformer model architectures."
       },
       {
         "company":"BLUE CROSS BLUE SHIELD OF ALABAMA, Birmingham, AL",
         "title":"Java Developer",
         "years":"July 2021 – April 2022",
-        "description":"Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment. Implemented new user experience stories on React JavaScript applications using Type Script to ensure variable type and structure.  Utilized node.js as our package manager for our React applications and to build the production static files which are embedded into our application.  Utilized Liferay to embed applications and manage web content.  Collaborated with product owners to ensure new UI elements matched their vision.  Utilized SQL to find test users to ensure all specials cases were handled.  Worked in a remote team-based environment."
+        "description":"Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment. \nImplemented new user experience stories on React JavaScript applications using Type Script. \nUtilized Liferay to embed applications and manage web content. \nCollaborated with product owners to ensure new UI elements matched their vision."
       },
       {
         "company":"C & A Holding Companies Inc. Littleton, CO",
@@ -88,7 +94,7 @@ class Resume extends Component {
       },
       {
         "name":"Java",
-        "description":"40%",
+        "description":"20%",
         "weight": "4"
       },
       {
@@ -142,6 +148,11 @@ class Resume extends Component {
         "weight": "5"
       },
       {
+        "name":"PyTorch",
+        "description":"33%",
+        "weight": "6"
+      },
+      {
         "name":"MySQL",
         "description":"30%",
         "weight": "5"
@@ -152,7 +163,7 @@ class Resume extends Component {
         "weight": "3"
       },
       {
-        "name":"Natural Language Processing",
+        "name":"Natural Language Processing Algorithms",
         "description":"30%",
         "weight": "3"
       },
@@ -165,11 +176,19 @@ class Resume extends Component {
         "description":"37%",
         "weight": "3"
       },{
-        "name":"CI/CD Pipelines",
+        "name":"Terraform",
         "description":"20%",
         "weight": "2"
       },{
-        "name":"Nueral Networks",
+        "name":"MPI",
+        "description":"20%",
+        "weight": "2"
+      },{
+        "name":"Django Rest Framwork",
+        "description":"20%",
+        "weight": "2"
+      },{
+        "name":"Kubernetes",
         "description":"20%",
         "weight": "5"
       }
