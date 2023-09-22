@@ -6,7 +6,7 @@ class Resume extends Component {
       {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
-        "graduated":"Excpected Decemember 2023",
+        "graduated":"Excpected December 2023",
         "gpa":" 3.97/4.0",
         "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. My relevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
       },
