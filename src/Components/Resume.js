@@ -7,23 +7,27 @@ class Resume extends Component {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
         "graduated":"Excpected Decemember 2023",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. \nCurrent GPA: 3.97 / 4.0. \nRelevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
+        "gpa":" 3.97/4.0",
+        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. My relevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
       },
       {
         "school":"Rockhurst University, Kansas City, MO.",
         "degree":"Bachelors of Science in Computer Science and Applied Mathematics",
         "graduated":"May 2020",
-        "description":"Graduated Magna Cum Laude with a 3.74 GPA from Rockhurst and UMKC's Dual degree program which allowed me to attend classes at both schools. "
+        "gpa":" 3.74/4.0",
+        "description":"Graduated Magna Cum Laude from Rockhurst and UMKC's Dual degree program which allowed me to attend classes at both schools. "
       }
     ];
     var education = educationData.map(function(education){
       return <div key={education.school}><h3>{education.school}</h3>
       <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-      <p>{education.description}</p></div>
+      <p className='gpa'>GPA: {education.gpa}</p>
+      <p>{education.description}</p>
+      </div>
     });
     const workData =[
       {
-        "company":"COMCAST CORPERATION, Denver, CO",
+        "company":"COMCAST CORPORATION, Denver, CO",
         "title":"Dev Ops Engineer III",
         "years":"April 2022 – Present",
         "description":"Led and maintained ownership of an internal React JavaScript tool for the DevOps team, undertaking a comprehensive rewrite to upgrade the language version. \nDeveloped a Python-based backend for data collection from production sites, feeding interactive data visualizations on the React frontend and generating daily reports. \nDesigned a sophisticated backend system that parses formulas from Excel spreadsheets into executable Python code, ensuring sequential execution and dynamically reconstructing the original Excel document.	\nTransitioned application deployments from bare metal servers to a Kubernetes-based setup, utilizing Docker, Helm charts, and Terraform."
@@ -42,7 +46,7 @@ class Resume extends Component {
       },
       {
         "company":"C & A Holding Companies Inc. Littleton, CO",
-        "title":"Software Developer",
+        "title":"Software Developer Intern",
         "years":"June 2020 – July 2021",
         "description":"Delivered a custom monitoring dashboard digesting data via API calls to multiple databases. Designed and developed a custom visualization tool via an embedded Tableau map in a React Web Application.  Communicated with marketing director and payment processor to build an E-commerce site in Square Space with injected custom JavaScript code."
       },
@@ -143,6 +147,11 @@ class Resume extends Component {
         "weight": "9"
       },
       {
+        "name":"Django Rest Framwork",
+        "description":"60%",
+        "weight": "2"
+      },
+      {
         "name":"Machine Learning",
         "description":"30%",
         "weight": "5"
@@ -181,10 +190,6 @@ class Resume extends Component {
         "weight": "2"
       },{
         "name":"MPI",
-        "description":"20%",
-        "weight": "2"
-      },{
-        "name":"Django Rest Framwork",
         "description":"20%",
         "weight": "2"
       },{

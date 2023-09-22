@@ -313,6 +313,12 @@ ul#nav li a {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+#resume .gpa {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+}
 
 /*----------------------------------------------*/
 /*	Skill Bars
