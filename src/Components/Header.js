@@ -108,7 +108,7 @@ class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">I'm Connor Larson.</h1>
-               <h3 className="backopacity">I'm a Master's Student focused on Machine Learning based out of Denver Colorado. Along side that I am also a full time Dev Ops Engineer.</h3>
+               <h3 className="backopacity">I'm a denver based, Full Stack Software Engineer working to transition into a Machine Learning role. I hold a Dual Master's Degree in Computer Science, with my emphasis in Intelligent systems, and Engineering Management as well as a dual Bachelor's degree in Computer Science and Applied Mathematics. Currently I work at Comcast as a Dev Ops Engineer 3.</h3>
                <hr />
                <ul className="social">
                   {networks}

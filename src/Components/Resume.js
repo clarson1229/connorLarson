@@ -6,9 +6,9 @@ class Resume extends Component {
       {
         "school":"University of Boulder, Colorado",
         "degree":"Masters in Computer Science and Engineering Management",
-        "graduated":"Excpected December 2023",
-        "gpa":" 3.97/4.0",
-        "description":"Pursuing a Masters in Computer Science with emphasis in Intelligent Systems. My relevant coursework thus far: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
+        "graduated":"December 2023",
+        "gpa":" 3.95/4.0",
+        "description":"Graduated with a Masters in Computer Science with my emphasis in Intelligent Systems. My relevant coursework: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
       },
       {
         "school":"Rockhurst University, Kansas City, MO.",
@@ -168,7 +168,7 @@ class Resume extends Component {
       },
       {
         "name":"Apache Hadoop",
-        "description":"30%",
+        "description":"10%",
         "weight": "3"
       },
       {
