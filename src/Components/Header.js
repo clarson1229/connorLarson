@@ -73,7 +73,8 @@ class Header extends Component {
          {
            "name":"linkedin",
            "url":"https://www.linkedin.com/in/clarson1229/",
-           "className":"fab fa-linkedin"
+           "className":"fab fa-linkedin",
+           "label": "LinkedIn Profile"
          },
          // {
          //   "name":"instagram",
@@ -83,12 +84,20 @@ class Header extends Component {
          {
            "name":"github",
            "url":"http://github.com/clarson1229",
-           "className":"fab fa-github"
+           "className":"fab fa-github",
+           "label": "Github Profile"
          }
        ];
       var networks= social.map(function(network){
-         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-         });
+         return(
+            <li key={network.name}>                  
+               <a href={network.url}>
+                  {network.label}
+                  <i className={network.className} style={{ marginLeft : '5px' }}></i>
+               </a>
+            </li>
+         )
+      });
 
     return (
       <header id="home">
