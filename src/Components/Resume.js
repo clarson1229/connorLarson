@@ -8,7 +8,7 @@ class Resume extends Component {
         "degree":"Masters in Computer Science and Engineering Management",
         "graduated":"December 2023",
         "gpa":" 3.95/4.0",
-        "description":"Graduated with a Masters in Computer Science with my emphasis in Intelligent Systems. My relevant coursework: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
+        "description":"Graduated with a Masters in Computer Science with my emphasis in Artificial Intelligence. My relevant coursework: Machine Learning, Natural Language Processing, Neural Networks, High Performance Super Computing, Cyber Security, Data Mining, and Project Management."
       },
       {
         "school":"Rockhurst University, Kansas City, MO.",
