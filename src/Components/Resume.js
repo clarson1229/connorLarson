@@ -28,7 +28,7 @@ class Resume extends Component {
     const workData =[
       {
         "company":"COMCAST CORPORATION, Denver, CO",
-        "title":"Dev Ops Engineer III",
+        "title":"Software Developer",
         "years":"April 2022 – Present",
         "description":"Led and maintained ownership of an internal React JavaScript tool for the DevOps team, undertaking a comprehensive rewrite to upgrade the language version. \nDeveloped a Python-based backend for data collection from production sites, feeding interactive data visualizations on the React frontend and generating daily reports. \nDesigned a sophisticated backend system that parses formulas from Excel spreadsheets into executable Python code, ensuring sequential execution and dynamically reconstructing the original Excel document.	\nTransitioned application deployments from bare metal servers to a Kubernetes-based setup, utilizing Docker, Helm charts, and Terraform."
       },
@@ -40,7 +40,7 @@ class Resume extends Component {
       },
       {
         "company":"BLUE CROSS BLUE SHIELD OF ALABAMA, Birmingham, AL",
-        "title":"Java Developer",
+        "title":"Software Developer",
         "years":"July 2021 – April 2022",
         "description":"Developed enhancements and corrected defects on legacy JavaServer Page applications in a Jboss development environment. \nImplemented new user experience stories on React JavaScript applications using Type Script. \nUtilized Liferay to embed applications and manage web content. \nCollaborated with product owners to ensure new UI elements matched their vision."
       },
@@ -196,6 +196,10 @@ class Resume extends Component {
         "name":"Kubernetes",
         "description":"20%",
         "weight": "5"
+      },{
+        "name":"Helm",
+        "description":"17%",
+        "weight": "3"
       }
     ];
     var skills = skillsData.map(function(skills){
